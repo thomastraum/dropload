@@ -1,4 +1,3 @@
-
 /**
  * Module dependencies.
  */
@@ -78,6 +77,7 @@ Dropload.prototype.ondragenter = function(e){
  */
 
 Dropload.prototype.ondragover = function(e){
+  this.classes.add('over');
   e.preventDefault();
 };
 
